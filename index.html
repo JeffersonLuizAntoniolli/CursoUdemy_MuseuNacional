@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+	<link rel="stylesheet" type="text/css" href="css/normalize.css">
+
+	<!--[if lt IE 9]>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+	<![endif]-->
+
+	<title>Projeto 6 - Museu Nacional</title>
+</head>
+<body >
+	<div id="container"> <!-- Inicio do Container -->
+		<header> <!-- Inicio do header -->
+			 <div id="logo">
+			 	<h1><a href=""> Museu Nacional </h1>
+			 </div>
+			 <nav><!-- Inicio do nav bar -->
+				<ul>
+					<li><a href="">Home</a> </li>
+					<li><a href="">Exposições</a> </li>
+					<li><a href="">Pesquisa</a> </li>
+					<li><a href="">Acervo</a> </li>
+					<li><a href="">Vídeos</a> </li>
+					<li><a href="">Fotos</a> </li>
+					<li><a href="">Contato</a> </li>
+				</ul>
+			</nav><!-- Fim do nav bar -->
+		</header> <!-- Fim do header -->
+		<div id="principal"> <!-- Inicio do principal -->
+			<div id="conteudo"> <!-- Inicio do Conteudo -->
+				<section id="capa">
+					<img src="image/museu.png">
+				</section>
+
+				<section id="postagem">
+					<article id="video">
+
+						<h3>Video: Conheça o Museu</h3>
+						<iframe width="310" height="170" src="https://www.youtube.com/embed/RGUYb-hivrc" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+					</article>
+
+					<article id="mapa">
+						<h3>Mapa: Encontre o Museu</h3>
+						<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3675.206311665319!2d-43.228717585034445!3d-22.90575998501238!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x997e58a085b7af%3A0x4d11e9a933d38ce3!2sMuseu+Nacional+-+UFRJ!5e0!3m2!1spt-BR!2sbr!4v1537538326477" width="310" height="170" frameborder="0" style="border:0" allowfullscreen></iframe>
+					</article>
+
+					<article id="exposicoes">
+						<h3>Exposições</h3>
+						<ul>
+							<li>
+								<a href="">Os assustadores Insetos</a>
+							</li>
+							<li>
+								<a href="">Plantas do Brasil Central</a>
+							</li>
+							<li>
+								<a href="">Teresa Cristina: A Imperatriz Arqueóloga</a>
+							</li>
+							<li>
+								<a href=""><strong>Veja Todos (65) </strong> </a>
+							</li>
+						</ul>
+					</article>
+
+					<article id="historia">
+						<h3>200 Anos de História</h3>
+						<p>
+							Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+						</p>
+						<a href=""> <strong>Leia Mais!</strong> </a>
+					</article>
+
+				</section>
+
+			</div> <!-- Inicio do Conteudo -->
+			<aside> <!-- Inicio do Aside Lateral -->
+				<section id="depoimento">
+					<img src="image/depoimento.png">
+				</section>
+				<section id="visita">
+					<h4>Faça uma visita</h4>
+					<form>
+						<fieldset>
+							<legend></legend>
+
+							<label>Data</label>
+							<input class="campo" type="text" id="data" name="" value="dd/mm/aaaa">
+							<label>e Qtd. de Pessoas</label>
+							<input class="campo" style="width: 30px;" type="text" id="qtd" name="" value="1">
+
+						</fieldset>
+
+						<input class="botao" type="submit" value="Verificar disponibilidade" name="">
+
+					</form>
+				</section>
+
+				<section id="galeria"> <!-- Inicio da seção de visita -->
+					<h4>Galeria de Fotos</h4>
+					<a href="">
+						<img src="image/imagem1.jpg" height="90" width="90" alt="Descrição Imagem 1">
+					</a>
+					<a href="">
+						<img src="image/imagem2.jpg" height="90" width="90" alt="Descrição Imagem 2">
+					</a>
+					<a href="">
+						<img src="image/imagem3.jpg" height="90" width="90" alt="Descrição Imagem 3">
+					</a>
+					<a href="">
+						<img src="image/imagem4.jpg" height="90" width="90" alt="Descrição Imagem 4">
+					</a>
+				</section> <!-- Fim da seção de visita-->
+
+			</aside> <!-- Fim do Aside Lateral -->
+			<div style="clear: both;"></div> <!-- 'Div' criada para limpar fluxo flutuante -->
+
+			<footer>
+				<p>
+					<a href="">Home</a>
+					<a href="">Exposições</a>
+					<a href="">Pesquisa</a>
+					<a href="">Acervo</a>
+					<a href="">Vídeos</a>
+					<a href="">Fotos</a>
+					<a href="">Contato</a>
+				</p>
+				<p>
+					2022 <a href="">Museu Nacional</a> --- Todos os direitos reservados
+				</p>
+			</footer>
+
+		</div> <!-- Fim do Principal -->
+
+		
+	</div> <!-- Fim do Container -->
+</body>
+</html>
